@@ -44,3 +44,21 @@ nav a:hover {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
 }
+
+/* General seciton styling */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    max-width: 960px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0083b0;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
