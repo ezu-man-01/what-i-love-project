@@ -117,23 +117,3 @@ section h2 {
     background: #5dcef4;
 }
 
-#favorite-things ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-
-/* Favorite Things styling */
-#favorite-things li {
-  background: #f8f9fa;
-  margin: 10px auto;
-  padding: 12px 20px;
-  border: 1px solid #ced4da;
-  border-radius: 5px;
-  font-size: 1.1em;
-  max-width: 400px;
-}
-
-#favorite-things li:nth-child(even) {
-  background: #e9ecef;
-}
