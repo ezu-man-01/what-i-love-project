@@ -1,3 +1,4 @@
+/* General body style */
 body{
    font-family: 'Open Sans', sans-serif; 
    margin: 0;
@@ -7,3 +8,9 @@ body{
    background: white;
    box-sizing: border-box;
 }
+
+/* Inherit box-sizing to all elements */
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
