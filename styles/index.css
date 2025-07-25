@@ -14,3 +14,20 @@ body{
     box-sizing: inherit;
 }
 
+/* header style */
+header{
+    background: linear-gradient(to right,#00b4db, #0083b0); /* for the gradient background */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;    
+}
+
+header h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+}
