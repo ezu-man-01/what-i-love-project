@@ -117,3 +117,30 @@ section h2 {
     background: #5dcef4;
 }
 
+/* Favorite Things Styling*/
+#favorite-things ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#favorite-things li {
+    background: #e3f8ff;
+    margin: 10px auto;
+    padding: 12px 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1.1em;
+    max-width: 400px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#favorite-things li:nth-child(even) {
+    background: #d4f4ff;
+}
+
+#favorite-things li:hover {
+    background-color: #5dcef4;
+    transform: scale(1.03);
+    cursor: pointer;
+}
