@@ -173,11 +173,11 @@ section h2 {
 
 /* add an arrow */
 .cta-link::after {
-  content: ' →';
-  margin-left: 5px;
-  transition: margin-left 0.3s ease;
+    content: ' →';
+    margin-left: 5px;
+    transition: margin-left 0.3s ease;
 }
 
 .cta-link:hover::after {
-  margin-left: 10px;
+    margin-left: 10px;
 }
