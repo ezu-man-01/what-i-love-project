@@ -22,3 +22,35 @@ img {
     display: block;
     border-radius: 8px;
 }
+
+/* Header */
+header {
+    background-color: #161b22;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #30363d;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #58a6ff;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav a {
+    font-weight: 600;
+    color: #c9d1d9;
+}
+
+nav a:hover {
+    color: #2f81f7;
+}
