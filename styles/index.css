@@ -71,7 +71,7 @@ nav a:hover{
     background: linear-gradient(90deg, #2ea043, #58a6ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #2ea043; /* fallback */
+    color: #2ea043;
     margin-bottom: 1rem;
     animation: fadeIn 1.2s ease-in;
 }
@@ -82,6 +82,32 @@ nav a:hover{
     line-height: 1.8;
     margin: 0 auto;
     animation: fadeIn 1.5s ease-in;
+}
+
+/* Featured Interests */
+.featured-interests h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #58a6ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+}
+
+/* Decorative underline */
+.featured-interests h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #2ea043, #58a6ff);
+    margin: 8px auto 0;
+    border-radius: 2px;
+    box-shadow: 0 0 6px #58a6ffaa;
 }
 
 
