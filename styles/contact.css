@@ -176,19 +176,115 @@ footer {
     color: #58a6ff;
 }
 
-/*  Responsive */
+/* Responsive for Tablets and Small Screens */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+        padding: 1.2rem 1rem;
     }
 
-    nav {   
+    header h1 {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+    }
+
+    nav {
         justify-content: center;
-        gap: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+    }
+
+    #contact-form-section {
+        padding: 1.5rem;
+        margin: 2rem 1rem;
+    }
+
+    #contact-form-section h2 {
+        font-size: 2rem;
     }
 
     .contact-form {
         padding: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    textarea {
+        font-size: 1rem;
+        padding: 0.65rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1rem;
+        padding: 0.7rem 1.3rem;
+    }
+
+    .privacy-note {
+        font-size: 0.85rem;
+    }
+
+    footer {
+        font-size: 0.85rem;
+        padding: 1.2rem 0.8rem;
+    }
+
+    .social-icons a {
+        font-size: 1.1rem;
+    }
+}
+
+/* Responsive for Mobile Phones */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.4rem;
+    }
+
+    #contact-form-section {
+        padding: 1rem;
+        margin: 1.5rem 0.8rem;
+    }
+
+    #contact-form-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form {
+        padding: 1rem;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    textarea {
+        font-size: 0.95rem;
+        padding: 0.6rem;
+    }
+
+    button[type="submit"] {
+        font-size: 0.95rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .privacy-note {
+        font-size: 0.75rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .social-icons a {
+        font-size: 1rem;
     }
 }
