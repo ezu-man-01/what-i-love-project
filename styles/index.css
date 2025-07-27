@@ -138,6 +138,24 @@ nav a:hover{
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
 }
 
+/* Favorite-things Section */
+#favorite-things {
+    padding: 3rem 1rem;
+    background-color: #0d1117;
+    text-align: center;
+}
 
+#favorite-things h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
+#favorite-things ul {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #c9d1d9;
+    padding-left: 1.5rem;
+}
 
