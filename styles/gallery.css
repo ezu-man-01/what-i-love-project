@@ -79,3 +79,60 @@ nav a:hover {
     max-width: 720px;
     margin: 0 auto 2.5rem;
 }
+
+/*  Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    background-color: #161b22;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02);
+}
+
+.item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, transparent 0%, #0d1117cc 100%);
+    padding: 1rem;
+    color: #e6edf3; 
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.gallery-item:hover .item-overlay {
+    opacity: 1;
+}
+
+.item-overlay h4 {
+    font-size: 1.2rem;
+    color: #58a6ff;
+    margin-bottom: 0.5rem;
+}
+
+.item-overlay p {
+    font-size: 0.95rem;
+    color: #c9d1d9;
+    margin: 0;
+}
+
+/* Gallery Note */
+.gallery-note {
+    font-size: 0.95rem;
+    color: #8b949e;
+    font-style: italic;
+    margin-top: 2rem;
+}
