@@ -80,10 +80,10 @@ nav a:hover {
     margin: 0 auto 2.5rem;
 }
 
-/*  Gallery Grid */
+/* Gallery Grid */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
     gap: 1.5rem;
     padding-bottom: 2rem;
 }
