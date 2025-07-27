@@ -110,6 +110,34 @@ nav a:hover{
     box-shadow: 0 0 6px #58a6ffaa;
 }
 
+.interests-container {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.interest-card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 1.5rem;
+    flex: 1 1 250px;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interest-card i {
+    font-size: 2rem;
+    color: #f0b429;
+    margin-bottom: 0.75rem;
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
 
 
 
