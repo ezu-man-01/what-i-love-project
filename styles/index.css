@@ -52,3 +52,38 @@ nav a{
 nav a:hover{
     color: #2f81f7;
 }
+
+/* The Art Section */
+.Art {
+    padding: 4rem 1rem;
+    background-color: #0d1117;
+    text-align: center;
+}
+
+.Art {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.Art h2 {
+    font-size: 2.8rem;
+    background: linear-gradient(90deg, #2ea043, #58a6ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #2ea043; /* fallback */
+    margin-bottom: 1rem;
+    animation: fadeIn 1.2s ease-in;
+}
+
+.Art p {
+    font-size: 1.3rem;
+    color: #c9d1d9;
+    line-height: 1.8;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease-in;
+}
+
+
+
+
