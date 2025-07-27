@@ -10,5 +10,14 @@ body{
     line-height: 1.6;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease; 
+}
 
-
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f0f6fc;
+  margin-top: 0;
+}
