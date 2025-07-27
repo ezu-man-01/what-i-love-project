@@ -220,43 +220,117 @@ footer {
     }
 }
 
-/* Responsive */
+/* Responsive for Tablets and Small Screens */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+        padding: 1.2rem 1rem;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
     }
 
     nav {
         justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+    }
+
+    .Art h2 {
+        font-size: 2.2rem;
+    }
+
+    .Art p {
+        font-size: 1.1rem;
+    }
+
+    .featured-interests h3 {
+        font-size: 1.9rem;
     }
 
     .interest-card {
         flex: 1 1 90%;
         max-width: 90%;
+        padding: 1.2rem;
+    }
+
+    #favorite-things h3 {
+        font-size: 1.6rem;
+    }
+
+    #favorite-things ul {
+        font-size: 1rem;
+        padding-left: 1rem;
     }
 
     .cta-link, .cta-button {
         width: 100%;
         font-size: 1rem;
+        padding: 0.8rem 1rem;
+    }
+
+    footer {
+        font-size: 0.85rem;
+        padding: 1.2rem 0.8rem;
+    }
+
+    .social-icons a {
+        font-size: 1.1rem;
     }
 }
 
+/* Responsive for Mobile Phones */
 @media (max-width: 480px) {
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     nav {
         flex-direction: column;
+        align-items: center;
         gap: 0.5rem;
     }
 
-    .stylish-trading h2 {
-        font-size: 2rem;
+    .Art h2 {
+        font-size: 1.8rem;
+    }
+
+    .Art p {
+        font-size: 1rem;
+    }
+
+    .featured-interests h3 {
+        font-size: 1.6rem;
+    }
+
+    .interest-card {
+        padding: 1rem;
+    }
+
+    #favorite-things h3 {
+        font-size: 1.4rem;
     }
 
     #favorite-things ul {
+        font-size: 0.95rem;
+        padding-left: 0.8rem;
+    }
+
+    .cta-link {
+        font-size: 0.95rem;
+        padding: 0.7rem 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .social-icons a {
         font-size: 1rem;
     }
 }
