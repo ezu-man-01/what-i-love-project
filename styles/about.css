@@ -1,8 +1,6 @@
 /* Reset and base */
 
-*,
-*::before,
-*::after {
+*,*::before,*::after {
     box-sizing: border-box;
 }
 
@@ -11,7 +9,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: black;
     color: white;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 a{  
@@ -151,7 +149,7 @@ footer {
     color: #58a6ff;
 }
 
-/* === Responsive === */
+/* Responsive */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
