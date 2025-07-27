@@ -150,3 +150,28 @@ footer {
 .social-icons a:hover {
     color: #58a6ff;
 }
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    #strategy h2 {
+        font-size: 2rem;
+    }
+
+    #strategy h3 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 2rem 1rem;
+    }
+}
