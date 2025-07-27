@@ -151,3 +151,43 @@ button i {
     margin-top: 1.5rem;
     font-style: italic;
 }
+
+/* Footer */
+footer {
+    background-color: #0d1117;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    color: #8b949e;
+    border-top: 1px solid #21262d;
+}
+
+.social-icons {
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+    color: #8b949e;
+    font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+    color: #58a6ff;
+}
+
+/*  Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {   
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
+    }
