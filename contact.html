@@ -28,7 +28,69 @@
     </header>
 
     <main>
-        
+        <!-- contact-form-section -->
+        <section id="contact-form-section">
+            <h2>Get in Touch with Me</h2>
+            <p>Have questions about trading? Want to discuss strategies or collaborate? Fill out the form below!</p>
+
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="fullName">Your Name:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Your Age:</label>
+                    <input type="number" id="age" name="age" min="18" max="99" placeholder="e.g., 30" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Preferred Contact Method:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="emailContact" name="contactMethod" value="email" required>
+                        <label for="emailContact">Email</label>
+
+                        <input type="radio" id="phoneContact" name="contactMethod" value="phone">
+                        <label for="phoneContact">Phone</label>
+
+                        <input type="radio" id="socialContact" name="contactMethod" value="social">
+                        <label for="socialContact">Social Media</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Areas of Interest (select all that apply):</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="techAnalysis" name="interest" value="technical" required>
+                        <label for="techAnalysis">Technical Analysis</label><br>
+
+                        <input type="checkbox" id="fundAnalysis" name="interest" value="fundamental">
+                        <label for="fundAnalysis">Fundamental Analysis</label><br>
+
+                        <input type="checkbox" id="riskMgt" name="interest" value="risk">
+                        <label for="riskMgt">Risk Management</label><br>
+
+                        <input type="checkbox" id="tradingPsy" name="interest" value="psychology">
+                        <label for="tradingPsy">Trading Psychology</label>
+                     </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="satisfaction">How satisfied are you with the insights so far? <span id="rangeValue">50%</span></label>
+                    <input type="range" id="satisfaction" name="satisfaction" min="0" max="100" value="50" oninput="document.getElementById('rangeValue').innerText = this.value + '%'" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                </div>
+            </form>
+            <p class="privacy-note">Your information will be kept confidential and used solely for the purpose of responding to your inquiry.</p>
+        </section>
     </main>
 
 </body>
