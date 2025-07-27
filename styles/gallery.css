@@ -54,3 +54,28 @@ nav a {
 nav a:hover {
     color: #2f81f7;
 }
+
+/* Market Insights Section */
+#market-insights {
+    padding: 3rem 1.5rem;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+#market-insights h2 {
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, #2ea043, #58a6ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #2ea043; 
+    margin-bottom: 1rem;
+}
+
+#market-insights p {
+    color: #c9d1d9;
+    font-size: 1.1rem;
+    max-width: 720px;
+    margin: 0 auto 2.5rem;
+}
